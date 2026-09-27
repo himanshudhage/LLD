@@ -1,0 +1,17 @@
+Observer Pattern means: when one object changes, automatically notify all the objects that are interested in that change.
+
+Imagine a YouTube channel.
+
+You subscribe to a channel.
+
+YouTube Channel
+      |
+      | new video uploaded
+      ↓
+  Notify subscribers
+      |
+  --------------
+  |     |      |
+User A User B User C
+
+When the channel uploads a video, it automatically notifies all subscribers.

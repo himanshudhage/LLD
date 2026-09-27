@@ -1,0 +1,3 @@
+Decorator = add extra features/behavior to an existing object without changing its original class.
+Decorator Pattern allows us to add new behavior or responsibilities to an existing object dynamically without modifying 
+its class

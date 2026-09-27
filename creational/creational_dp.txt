@@ -1,0 +1,2 @@
+Creational Design Pattern means a way of creating objects in a smart and flexible way.
+Instead of creating every object yourself, you have a system that knows how and when to create the right object.

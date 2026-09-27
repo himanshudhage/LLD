@@ -1,0 +1,1 @@
+Structural Design Pattern means a way of organizing classes and objects so they can work together easily.

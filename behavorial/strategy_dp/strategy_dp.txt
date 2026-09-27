@@ -1,0 +1,7 @@
+Strategy = “same job, different ways of doing it.”
+
+Strategy Pattern is used when we have multiple ways to perform the same task, and we want to choose the required way at 
+runtime without changing the main code.
+
+I have multiple ways to do the same thing, and I want to choose which way at runtime.
+Strategy = separate different algorithms/behaviors into separate classes and choose one when needed.

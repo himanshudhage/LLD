@@ -1,0 +1,36 @@
+Adapter Pattern is like a translator. It helps two things with different interfaces work together.
+Real-life example 
+Imagine:
+
+Your mobile phone has a USB-C port.
+You have an old Micro-USB charger.
+They don't fit together.
+So you use an adapter:
+
+Mobile Phone
+   USB-C
+     ↓
+  Adapter
+     ↓
+Micro-USB Charger
+
+
+
+
+MobilePhone       → Client
+USBTypeC          → Target
+ChargerAdapter    → Adapter
+MicroUSBCharger   → Adaptee
+
+
+"MobilePhone is the client because it wants to charge. USBTypeC is the interface expected by the phone. 
+MicroUSBCharger is the existing class that has a different interface. ChargerAdapter connects both of them."
+
+Adapter Design Pattern is used when two classes have incompatible interfaces and we want them to work together."
+In my example, the mobile phone expects a USB-C charger, but I have an old Micro-USB charger. The phone cannot directly use
+ the old charger because their interfaces are different.
+So, I create a ChargerAdapter.
+The adapter implements the interface that the mobile phone understands, which is USBTypeC. 
+Internally, the adapter has a MicroUSBCharger.
+When the mobile asks the adapter to chargeWithTypeC(), the adapter converts this call into chargeWithMicroUSB() and calls the old charger.
+So, the adapter basically acts like a translator between the mobile phone and the old charger

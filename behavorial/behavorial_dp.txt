@@ -1,0 +1,2 @@
+How objects communicate with each other and how they behave.
+They focus on what an object does and how it interacts with other objects, rather than how objects are created or structured.

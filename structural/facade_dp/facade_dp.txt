@@ -1,0 +1,5 @@
+Facade = One simple interface that hides many complicated operations behind it.
+Facade means: "Give me one simple way to use many complicated things."
+
+Facade Design Pattern provides a simple interface to a complex system by hiding the complexity of multiple classes 
+behind one class.

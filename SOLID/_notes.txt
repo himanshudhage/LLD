@@ -1,0 +1,14 @@
+S — Single Responsibility Principle (SRP)
+A class should have only one job.
+
+O — Open/Closed Principle (OCP)
+Code should be open for adding new features but closed for changing existing code.
+
+L — Liskov Substitution Principle (LSP)
+A child class should be able to replace its parent class without breaking the program.
+
+I — Interface Segregation Principle (ISP)
+Do not force a class to implement things it does not need.
+
+D — Dependency Inversion Principle (DIP)
+Depend on abstractions, not concrete classes.
